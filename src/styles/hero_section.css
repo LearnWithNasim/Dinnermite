@@ -1,0 +1,41 @@
+.hero_title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+.hero_title span {
+  color: #df2020;
+}
+.hero_content {
+  padding-top: 80px;
+}
+.hero_content p {
+  font-size: 1rem;
+
+  line-height: 30px;
+  color: #777;
+}
+.hero_btns {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 30px 0px;
+}
+.hero_btns button {
+  font-size: 1.1rem;
+  padding: 5px 20px;
+}
+
+.hero_service p {
+  color: #212245;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.shipping_icon i {
+  padding: 5px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500 !important;
+}

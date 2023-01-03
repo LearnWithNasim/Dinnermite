@@ -1,0 +1,33 @@
+.review_text {
+  color: #777;
+  line-height: 20px;
+  margin: 30px 8px;
+}
+.slider_content img {
+  width: 20px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .review_text {
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    line-height: 16px;
+  }
+  div h6 {
+    font-size: 1rem;
+  }
+  .slider_content img {
+    width: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .review_text {
+    font-size: 0.8rem;
+  }
+  div h6 {
+    font-size: 0.9rem;
+  }
+}

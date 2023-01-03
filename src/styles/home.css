@@ -1,0 +1,234 @@
+.feature_subtitle {
+  color: #df2020;
+}
+.feature_title span {
+  color: #df2020;
+}
+.feature_text {
+  color: #777;
+}
+.feature_item p {
+  color: #777;
+}
+.food_category {
+  background: #df2020;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+.food_category button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+.food_category button img {
+  width: 20px;
+  height: 20px;
+}
+.foodBtnActive {
+  background: #fff;
+  border-radius: 5px;
+  color: #df2020;
+}
+.tasty_treat-title span {
+  color: #df2020;
+}
+.tasty_treat-desc {
+  color: #777;
+}
+.whyImg {
+  padding-top: 20px;
+}
+.icon {
+  color: #df2020;
+}
+.pizza {
+  color: #df2020;
+}
+.testimoial_subtitle {
+  color: #df2020;
+}
+.testimoial_title span {
+  color: #df2020;
+}
+.testimonials_desc {
+  color: #777;
+  line-height: 1.4rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero_btns button {
+    padding: 6px 18px;
+    font-size: 1rem;
+  }
+  .hero_service p {
+    font-size: 0.8rem;
+  }
+  .shipping_icon {
+    font-size: 1rem;
+  }
+  .tasty_treat-desc {
+    padding: 2px 0px;
+  }
+  .tasty_treat-title {
+    margin-bottom: 2px;
+  }
+  .testimoial_title {
+    font-size: 1.5rem;
+  }
+  .tasty_treat-title {
+    padding: 2px 0px;
+  }
+  .tasty_treat-desc {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero_content {
+    text-align: center;
+  }
+  .hero_content h5 {
+    font-size: 1.3rem;
+  }
+  .hero_content p {
+    font-size: 1rem;
+    line-height: 27px;
+    padding-top: 10px;
+  }
+  .hero_title {
+    font-size: 1.4rem;
+    line-height: 40px;
+  }
+  .hero_btns {
+    justify-content: center;
+  }
+  .hero_btns button {
+    padding: 7px 18px;
+    font-size: 0.9rem;
+  }
+  .hero_service {
+    justify-content: center;
+  }
+  .hero_service p {
+    font-size: 0.8rem;
+  }
+  .shipping_icon {
+    font-size: 1rem;
+  }
+  .hero_img {
+    width: 80%;
+    margin: auto;
+  }
+  .feature_subtitle {
+    font-size: 1rem;
+  }
+  .feature_title {
+    font-size: 2rem;
+  }
+  .feature_text {
+    font-size: 0.8rem;
+  }
+  .food_category button {
+    padding: 5px 15px;
+  }
+  .feature_item_item {
+    margin-top: 0px;
+    padding: 0;
+  }
+  .feature_item h5 {
+    font-size: 1.2rem;
+  }
+  .feature_item p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .popular_foods h2 {
+    font-size: 1.3rem;
+  }
+  .tasty_treat-title {
+    font-size: 1.4rem;
+  }
+  .tasty_treat-desc {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .whyImg {
+    padding: 0;
+    margin: 0;
+  }
+  .why_section {
+    padding: 0px 6px;
+  }
+  .icon_content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .hot_pizza h2 {
+    font-size: 1.5rem;
+  }
+  .testimoial_subtitle {
+    font-size: 1.2rem;
+  }
+  .testimoial_title {
+    font-size: 1.5rem;
+  }
+  .testimonials_desc {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .networkImg {
+    margin-top: 1rem;
+    /* width: 50px; */
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero_content {
+    text-align: center;
+  }
+
+  .hero_btns {
+    justify-content: center;
+  }
+
+  .hero_service {
+    justify-content: center;
+  }
+  .hero_img {
+    width: 70%;
+    margin: auto;
+  }
+  .feature_title {
+    font-size: 1.8rem;
+  }
+
+  .food_category button {
+    padding: 4px 5px;
+  }
+  .tasty_treat-title {
+    font-size: 1.3rem;
+  }
+  .tasty_treat-desc {
+    padding: 0px 10px;
+  }
+  .hot_pizza {
+    font-size: 1rem;
+  }
+  .testimoial_subtitle {
+    font-size: 1rem;
+  }
+  .testimoial_title {
+    font-size: 1.3rem;
+  }
+  .testimonials_desc {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .networkImg {
+    width: 40px;
+  }
+}

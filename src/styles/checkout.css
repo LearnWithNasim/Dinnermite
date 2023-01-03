@@ -1,0 +1,20 @@
+.checkout_bill {
+  background: #fde4e4;
+}
+.checkout_bill h6 span {
+  color: #df2020;
+}
+.checkout_total {
+  border-top: 1px solid #d4b4b4;
+}
+.checkout_total h5 span {
+  color: #df2020;
+}
+@media only screen and (max-width: 768px) {
+  .checkout_bill h6 {
+    font-size: 0.8rem;
+  }
+  .checkout_bill {
+    margin-top: 40px;
+  }
+}

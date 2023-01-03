@@ -17,6 +17,9 @@ body {
   background: #fcfcfc;
   font-family: "Istok Web", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 h1,
 h2,
@@ -31,6 +34,9 @@ a {
   text-decoration: none;
   color: unset;
 }
+a:hover {
+  color: rgba(178, 178, 178, 0.707);
+}
 
 h1,
 h2 {
@@ -41,4 +47,14 @@ h2 {
 
 section {
   padding: 60px 0px;
+}
+
+@media only screen and(max-width:768px) {
+  section {
+    padding: 40px 0px;
+  }
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
 }
