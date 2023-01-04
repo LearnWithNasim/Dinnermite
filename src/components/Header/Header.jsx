@@ -57,9 +57,7 @@ const Header = () => {
       <Container>
         <div className="nav_wrapper d-flex align-items-center justify-content-between ">
           <div className="logo">
-            <a href="/home">
-              <img src={Logo} alt="" />
-            </a>
+            <img src={Logo} alt="" />
 
             <h5>Tasty Treat</h5>
           </div>
